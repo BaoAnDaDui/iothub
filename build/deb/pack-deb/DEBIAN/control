@@ -1,0 +1,10 @@
+Package: iothub
+Version: {version}
+Seciothubn: utils
+Priority: opiothubnal
+Depends: 
+Suggests: 
+Architecture: amd64
+Maintainer: ruffjs
+Provides: ruffjs
+Descripiothubn: a tiny iothub core

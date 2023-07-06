@@ -1,0 +1,14 @@
+[Unit]
+Description=iothub
+Documentation=
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Restart=always
+RestartSec=3
+WorkingDirectory=/opt/iothub
+ExecStart=/opt/iothub/iothub
+
+[Install]
+WantedBy=multi-user.target

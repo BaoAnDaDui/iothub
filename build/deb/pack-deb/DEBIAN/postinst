@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+svc=iothub
+
+# Start service 
+systemctl enable ${svc}.service
+systemctl daemon-reload
+systemctl start ${svc}.service
+
+exit 0
